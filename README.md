@@ -156,6 +156,10 @@ API update: Issue templates and pull request templates
 
 I am a bit fearful that these API sets may be changed by GitHub. I am especially worried about pull requests, as issues were redone in a new style, with no backwards compatibility, and pull requests seem like they may be next.
 
+API update: Language code minor update (2022 May 28th)
+
+The language code for English (USA) has been expanded from English (US) to distinguish from other countries that may have the same acronym, and to match the scope of other country codes (such as CAN (Canada) UK0 (United Kingdom) etc.) this currently only applies to new commits, and I am working on not using the 2 letter acronym. I may forget from time to time (similar to my switch to ISO 8601, where: (example) 01/02/1970 became 1970/01/02) this isn't as big of a change.
+
 ##### June
 
 Data coming soon.
@@ -188,11 +192,11 @@ Data coming soon.
 
 File type: API Blueprint source file (.apib)
 
-File version: 2 (2022, Monday, May 23rd at 3:51 pm PST)
+File version: 3 (2022, Sunday, May 29th at 9:14 pm PST)
 
-Line count (including blank lines and compiler line): 202
+Line count (including blank lines and compiler line): 206
 
-Blueprint language: English (US)
+Blueprint language: English (USA)
 
 ## Current issues
 
