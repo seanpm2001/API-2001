@@ -5,7 +5,7 @@
 
 #### 2020
 
-##### May
+##### 2020 May
 
 2020 May 25th
 
@@ -15,7 +15,7 @@ Started using the Git version control system
 
 Started using GitHub
 
-##### June
+##### 2020 June
 
 UNDATED SO FAR: Starting using Wikis, low style level
 
@@ -24,79 +24,79 @@ UNDATED SO FAR: Starting using Wikis, low style level
 > Started using Git issues
 
 
-##### July
+##### 2020 July
 
 Data currently unavailable.
 
-##### August
+##### 2020 August
 
 Data currently unavailable.
 
-##### September
+##### 2020 September
 
 Started using GitHub organizations
 
-##### October
+##### 2020 October
 
 Data currently unavailable.
 
-##### November
+##### 2020 November
 
 Data currently unavailable.
 
-##### December
+##### 2020 December
 
 Data currently unavailable.
 
 #### 2021
 
-##### January
+##### 2021 January
 
 Data currently unavailable.
 
-##### February
+##### 2021 February
 
 Data currently unavailable.
 
-##### March
+##### 2021 March
 
 Data currently unavailable.
 
-##### April
+##### 2021 April
 
 Data currently unavailable.
 
-##### May
+##### 2021 May
 
 Data currently unavailable.
 
-##### June
+##### 2021 June
 
 Data currently unavailable.
 
-##### July
+##### 2021 July
 
 Data currently unavailable.
 
-##### August
+##### 2021 August
 
 2021, August: Compliance with ISO:8601, support for more advanced `.editorconfig` file options, added support for `.gitignore` `.gitattributes` `CREDITS` `COPYING` `INSTALL` and `makefile.mk` files in all projects, all archives of files are placed in the `/OldVersions/<fileType>/` directory (certain projects have them in `/OLD/<fileType>/` - August 18th
 
 2021, August (2): Added support for `AUTHORS` file - August 24th
 
-##### September
+##### 2021 September
 
 2021, September: New mega template, support for better fair use policies while copyright still exists, project wiki improvements, project wiki archive support: README of most recent change in front, old versions archived with their article named, followed by V# in a separate folder collection.
 
-##### October
+##### 2021 October
 
 Data currently unavailable.
 
-##### November
+##### 2021 November
 
 Data currently unavailable.
 
-##### December
+##### 2021 December
 
 2021, December: I have established a system for workflows. 2 workflows are mandatory in every project: `super-lint` and `makefile`. `CodeQL-analysis` is an optional must-have as well, but isn't available in all projects.
 
@@ -110,19 +110,19 @@ Also, RepoData is being added to any project I get to, as I can't get automation
 
 #### 2022
 
-##### January
+##### 2022 January
 
 Data currently unavailable.
 
-##### February
+##### 2022 February
 
 Data currently unavailable.
 
-##### March
+##### 2022 March
 
 Data currently unavailable.
 
-##### April
+##### 2022 April
 
 2022 April 12th: Beginning a new change, now using the `linguist-language` attribute alongside 2 other attributes in my gitattributes files.
 
@@ -134,7 +134,7 @@ Example usage:
 
 It is now planned to be used alongside every extension in my `.gitattributes` files, but I don't have the time yet to apply the change everywhere.
 
-##### May
+##### 2022 May
 
 API update: Issue templates and pull request templates
 
@@ -160,31 +160,80 @@ API update: Language code minor update (2022 May 28th)
 
 The language code for English (USA) has been expanded from English (US) to distinguish from other countries that may have the same acronym, and to match the scope of other country codes (such as CAN (Canada) UK0 (United Kingdom) etc.) this currently only applies to new commits, and I am working on not using the 2 letter acronym. I may forget from time to time (similar to my switch to ISO 8601, where: (example) 01/02/1970 became 1970/01/02) this isn't as big of a change.
 
-##### June
+##### 2022 June
 
 Data coming soon.
 
-##### July
+##### 2022 July
+
+July 2nd: License files {
+
+It is now normal to have more than 1 default language associated with a project via license files.
+
+Originally:
+
+A GPL-licensed python project with C, Shell, and Ruby influences:
+
+LICENSE.py
+LICENSE-GPL.py
+LICENSE-GPL3.py
+
+Now:
+
+A GPL-licensed pyhon project with C, Shell, and Ruby influences:
+
+LICENSE.c
+LICENSE.py
+LICENSE.rb
+LICENSE.sh
+LICENSE-GPL.c
+LICENSE-GPL.py
+LICENSE-GPL.rb
+LICENSE-GPL.sh
+LICENSE-GPL3.c
+LICENSE-GPL3.py
+LICENSE-GPL3.rb
+LICENSE-GPL3.sh
+
+This is a decorative action.
+
+}
+
+July 3rd: Gitconfig files {
+
+.gitattributes_V#, .gitignore_V# and .editorconfig_V# are having their names reversed in the `/OldVersions/` directory, regardless if they have been released or not.
+
+Original:
+
+/OldVersions/GITATTRIBUTES/.gitattributes_V1
+/OldVersions/GITIGNORE/.gitignore_V1
+/OldVersions/EDITORCONFIG/.editorconfig_V1
+
+New:
+
+/OldVersions/GITATTRIBUTES/V1.gitattributes
+/OldVersions/GITIGNORE/V1.gitignore
+/OldVersions/EDITORCONFIG/V1.editorconfig
+
+}
+
+##### 2022 August
 
 Data coming soon.
 
-##### August
+##### 2022 September
 
 Data coming soon.
 
-##### September
+##### 2022 October
 
 Data coming soon.
 
-##### October
+##### 2022 November
 
 Data coming soon.
 
-##### November
-
-Data coming soon.
-
-##### December
+##### 2022 December
 
 Data coming soon.
 
@@ -192,9 +241,9 @@ Data coming soon.
 
 File type: API Blueprint source file (.apib)
 
-File version: 3 (2022, Sunday, May 29th at 9:14 pm PST)
+File version: 5 (2022, Sunday, July 3rd at 9:41 pm PST)
 
-Line count (including blank lines and compiler line): 206
+Line count (including blank lines and compiler line): 257
 
 Blueprint language: English (USA)
 
@@ -203,3 +252,5 @@ Blueprint language: English (USA)
 API details from 2020 May to June are incomplete
 
 API details from 2020 July to 2022 April are not available yet.
+
+API details for 2022 June are not available yet.
