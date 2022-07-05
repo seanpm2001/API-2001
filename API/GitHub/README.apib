@@ -23,7 +23,6 @@ UNDATED SO FAR: Starting using Wikis, low style level
 
 > Started using Git issues
 
-
 ##### 2020 July
 
 Data currently unavailable.
@@ -217,6 +216,12 @@ New:
 
 }
 
+July 4th: ROOTFILES.base {
+
+A new file is now being added to the root of each repository, titled `/ROOTFILES.base` the file is a list of all files at the root of a repository (folders are included, but to save time and space, only the name of the outermost folder is included, none of the sub-folders or files are included) this feature was inspired by a similar file at the root of the [cowsay repository](https://github.com/tnalpgge/rank-amateur-cowsay/blob/master/Files.base)
+
+}
+
 ##### 2022 August
 
 Data coming soon.
@@ -241,9 +246,9 @@ Data coming soon.
 
 File type: API Blueprint source file (.apib)
 
-File version: 5 (2022, Sunday, July 3rd at 9:41 pm PST)
+File version: 6 (2022, Monday, July 4th at 10:03 pm PST)
 
-Line count (including blank lines and compiler line): 257
+Line count (including blank lines and compiler line): 262
 
 Blueprint language: English (USA)
 
